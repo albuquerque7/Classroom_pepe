@@ -5,7 +5,7 @@ class Usuario{
     public string $nome;
     public string $email;
     public string $tipo;
-    private string $senha_lash;
+    private string $senha_hash;
 
     public function __construct(int $id, string $nome, string $email, string $tipo){
 
